@@ -7,6 +7,10 @@ public class Person {
     private String cpf;
     private String profissao;
 
+    public Person(){
+
+    }
+
     public Person(int id,String nome, String sexo, String cpf, String profissao) {
         this.id = id;
         this.nome = nome;

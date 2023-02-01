@@ -8,7 +8,7 @@ public interface IPersonRepository {
 
 
     public boolean save(Person person);
-    public boolean delete(int id);
+    public boolean deleteById(int id);
     public List<Person> listPerson();
     public boolean change(Person person);
 }
