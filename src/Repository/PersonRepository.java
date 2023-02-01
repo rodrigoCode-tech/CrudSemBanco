@@ -20,7 +20,7 @@ public class PersonRepository implements IPersonRepository{
     }
 
     @Override
-    public boolean delete(int id) {
+    public boolean deleteById(int id) {
         for(Person person: personList){
             if (person.getId()==id){
                 personList.remove(person);
